@@ -1,0 +1,77 @@
+/* reset */
+
+h1, h2, body, ul, li, header, article, p, section {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #777;
+}
+
+body {
+  font-family: monospace;
+  font-size: 24px;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+/* clear fix */
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* navbar */
+
+.navbar {
+  border-bottom: 2px solid #999;
+  padding: 24px;
+}
+
+.navbar ul {
+  float: right;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
+  padding: 24px;
+}
+
+/* actually content */
+
+.main-section {
+/*  border-bottom: 2px solid #999;*/
+}
+
+.main-section h1 {
+  padding: 24px;
+}
+
+.main-section h2 {
+  padding: 24px;
+}
+
+.main-section p {
+  padding: 24px;
+}
