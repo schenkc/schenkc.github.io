@@ -75,3 +75,9 @@ h2 {
 .main-section p {
   padding: 24px;
 }
+
+.main-section img {
+  height: 400px;
+  width: auto;
+  float: right;
+}
